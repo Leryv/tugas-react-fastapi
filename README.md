@@ -31,13 +31,17 @@ Kesabaran
 
 Setup Backend
 
+```
 cd backend
 python -m venv .venv ==> membuat virtual env, kalo di react node module
 setup database mysql
 running dengan uvicorn main:app --reload
 
 ```
+
 Setup FrontEnd
+
+```
 cd frontend
 npm install
 npm run dev
