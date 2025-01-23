@@ -1,0 +1,10 @@
+python -m venv .venv    membuat virtual env, kalo di react node module
+.\venv\Scripts\activate  aktivasi virtual env
+cd backend
+pip install -r requirement.txt
+
+uvicorn main:app --reload untuk menjalankan main.py kenapa pake reload, agar jika ada perubahan, tidak perlu running ulang
+
+sebelum running buat database mysql dulu dengan nama fastapi_react_belajar baru running
+http://127.0.0.1:8000/docs  ui endpoint buat cek endpoint apa aja yg ada
+

@@ -1,0 +1,2 @@
+untuk running cukup install node v20 dan jalankan dengan cmd
+npm run dev
